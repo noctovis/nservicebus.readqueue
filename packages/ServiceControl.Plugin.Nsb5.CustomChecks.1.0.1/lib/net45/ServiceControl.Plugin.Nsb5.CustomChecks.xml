@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServiceControl.Plugin.Nsb5.CustomChecks</name>
+    </assembly>
+    <members>
+        <member name="T:ServiceControl.Plugin.CustomChecks.Internal.PeriodicCheckMonitor">
+            <summary>
+                This class will upon startup get the registered PeriodicCheck types
+                and will invoke each one's PerformCheck at the desired interval.
+            </summary>
+        </member>
+    </members>
+</doc>
